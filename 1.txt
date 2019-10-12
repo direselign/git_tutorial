@@ -4,3 +4,42 @@ git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/direselign/git_tutorial.git
 git push -u origin master
+
+
+
+
+Commit
+	• Git log - to see change history
+	• git log --start
+	• git  diff id id
+	• git clone address - uses to copy all files
+	• git checkout commit id
+	• git add file-name
+
+git config --global user.name "Direselign Addis"
+git config --global user.email "direselign@gmail.com"
+
+
+Create a branch
+	• git  branch --shows available branch's
+	• Git branch branch_name to add new branch
+	• git checkout branch_name  -to change the current branch
+To see logs in different way
+	• git log --graph --oneline   branch_name spearated with space
+	
+	
+	
+	
+	
+	
+Merging files
+	• Make the branch at master first then
+	• git merge branch1 branch2
+	• git  show commit_id
+	• Git branch -d branch name  => to delete branch
+	
+	
+Git to Github
+	• git remote add origin github_url 
+	• git remote  - to see
+git remote -v => to see more information
